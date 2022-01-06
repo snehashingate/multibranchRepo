@@ -6,7 +6,7 @@ agent any
 stages {
 stage('Main') {
 steps {
-echo "Main... branch"
+  echo "Main... branch ${BUILD_NUMBER}"
 }
 }
 }
